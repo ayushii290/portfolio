@@ -1,0 +1,260 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Portfolio of Ayushi Singh - Software Engineer and Full Stack Developer." />
+    <meta name="keywords" content="Ayushi Singh, Software Engineer, Full Stack Developer, Python, Web Developer, Portfolio" />
+    <meta name="theme-color" content="#00004d" />
+    <meta property="og:title" content="Ayushi Singh | Software Engineer" />
+    <meta property="og:description" content="Portfolio of Ayushi Singh - Software Engineer and Full Stack Developer." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ayushi Singh | Software Engineer" />
+    <meta name="twitter:description" content="Portfolio of Ayushi Singh - Software Engineer and Full Stack Developer." />
+    <link rel="icon" href="aa.png" type="image/png" />
+    <title>Ayushi Singh | Software Engineer</title>
+
+    <!-- updated css -->
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="dark-mode">
+    <!-- Header: logo + nav + theme toggle moved next to logo -->
+    <header>
+        <div class="container header-flex">
+            <div class="branding">
+                <a href="#" style="text-decoration: none;"><h1 class="logo">Ayushi Singh💻</h1></a>
+                <!-- Theme toggle placed beside logo -->
+                <button id="theme-toggle" aria-label="Toggle theme" class="theme-btn">
+                    <i id="theme-icon" class="fas fa-sun" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./resume.pdf" class="btn btn-primary" download="Ayushi_Singh_Resume.pdf">Download Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- HERO -->
+        <section id="hero" class="section-padding hero-section">
+            <div class="hero-content-left">
+                <h2 class="title-primary">
+                    Hi, I'm <span class="text-gradient">Ayushi Singh</span>
+                </h2>
+
+                <div class="animated-text-container" aria-live="polite">
+                    <span id="typing-text"></span>
+                </div>
+
+                <div class="hero-cta">
+                    <a class="btn btn-primary" href="#projects">See Projects</a>
+                    <a class="btn btn-glass" href="./resume.pdf" download="Ayushi_Singh_Resume.pdf">Download Resume</a>
+                </div>
+            </div>
+
+            <!-- Big profile photo on the right, no overlap -->
+            <div class="hero-image-right">
+                <img src="aa.png" alt="Portrait of Ayushi Singh" class="profile-large">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section-padding">
+            <h2 class="section-title">Get to Know Me Better</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate Software Engineer and Full Stack Developer focused on building robust and scalable web applications. I enjoy building user-centric solutions, designing clean architectures, and solving real-world engineering problems using modern web technologies.</p>
+                    <p>I continuously learn and apply technologies including Python, Node.js, Express, MongoDB, HTML, CSS, JavaScript, and Flask, while focusing on writing clean, maintainable, production-ready software.</p>
+                    <a href="./resume.pdf" class="btn btn-glass mt-2" download="Ayushi_Singh_Resume.pdf">Download Resume</a>
+                </div>
+                <div class="about-image-container">
+                    <img src="aaa.png" alt="Ayushi Singh" class="my-image" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section-padding">
+            <h2 class="section-title">My Future-Ready Skills</h2>
+            
+            <h3 class="skills-group-title">Programming Languages</h3>
+            <div class="skills-grid">
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-python" aria-hidden="true"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-js" aria-hidden="true"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-html5" aria-hidden="true"></i>
+                    <p>HTML5 / CSS3</p>
+                </div>
+            </div>
+
+            <h3 class="skills-group-title">Backend & Frameworks</h3>
+            <div class="skills-grid">
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-node-js" aria-hidden="true"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-node" aria-hidden="true"></i>
+                    <p>Express.js</p>
+                </div>
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-python" aria-hidden="true"></i>
+                    <p>Flask</p>
+                </div>
+            </div>
+
+            <h3 class="skills-group-title">Database & Tools</h3>
+            <div class="skills-grid">
+                <div class="skill-card glass-card skill-white">
+                    <i class="fas fa-envira" aria-hidden="true"></i>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-git-alt" aria-hidden="true"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill-card glass-card skill-white">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section-padding">
+            <h2 class="section-title">My Projects 💡</h2>
+            <div class="projects-grid project-spaced">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <h3>Student Performance Dashboard</h3>
+                    <div class="tech-stack-badges">
+                        <span class="badge">HTML5</span>
+                        <span class="badge">CSS3</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">Local Storage</span>
+                    </div>
+                    <p>A web-based academic dashboard tracking marks, attendance, strengths, and weaknesses. Automatically calculates performance metrics and provides personalized insights.</p>
+                    <div class="project-links">
+                        <a class="view-project btn btn-primary btn-sm" href="https://student-performance-dashboard-eosin.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a class="view-project btn btn-glass btn-sm" href="https://github.com/ayushii290?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <h3>Smart Lost & Found Portal</h3>
+                    <div class="tech-stack-badges">
+                        <span class="badge">Node.js</span>
+                        <span class="badge">Express.js</span>
+                        <span class="badge">MongoDB</span>
+                        <span class="badge">HTML/CSS/JS</span>
+                    </div>
+                    <p>A full-stack platform for reporting lost or found items with automatic item matching, claims submission, protected routes, and user authentication.</p>
+                    <div class="project-links">
+                        <a class="view-project btn btn-glass btn-sm" href="https://github.com/ayushii290/smart-lost-found.git" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <h3>Resume Builder</h3>
+                    <div class="tech-stack-badges">
+                        <span class="badge">Python</span>
+                        <span class="badge">Flask</span>
+                        <span class="badge">HTML/CSS</span>
+                        <span class="badge">Bootstrap</span>
+                        <span class="badge">FPDF</span>
+                    </div>
+                    <p>A Flask-based Resume Builder that allows users to create professional resumes through a simple form and generate downloadable PDF files dynamically.</p>
+                    <div class="project-links">
+                        <a class="view-project btn btn-glass btn-sm" href="https://github.com/ayushii290/resume-builder.git" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section-padding">
+            <h2 class="section-title">Get In Touch 📨</h2>
+
+            <div class="contact-stack">
+
+                <div class="contact-box glass-card contact-info-box">
+                    <h3>Contact Information</h3>
+                    <p class="contact-line"><i class="fas fa-envelope" aria-hidden="true"></i>
+                        Email:
+                        <a href="mailto:ayushi.singh29072006@gmail.com">ayushi.singh29072006@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="contact-box glass-card connect-online-box">
+                    <h3>Connect Online</h3>
+                    <div class="social-links">
+                        <a class="social-icon" href="https://www.linkedin.com/in/ayushi-singh-958bb8377/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a class="social-icon" href="https://github.com/ayushii290" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-box glass-card message-box">
+                    <h3>Send Me a Message</h3>
+                    <form id="contact-form" action="https://formspree.io/f/xgvbwolo" method="POST" class="contact-form">
+                        <label class="label">
+                            <span>Name</span>
+                            <input type="text" name="name" required placeholder="Your name" aria-label="Your name">
+                        </label>
+                        <label class="label">
+                            <span>Email</span>
+                            <input type="email" name="email" required placeholder="you@example.com" aria-label="Your email">
+                        </label>
+                        <label class="label">
+                            <span>Message</span>
+                            <textarea name="message" rows="5" required placeholder="Write a short message..." aria-label="Your message"></textarea>
+                        </label>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-red">Send Message</button>
+                            <div id="form-status" class="form-status"></div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Ayushi Singh. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Site JS -->
+    <script src="portfolio.js"></script>
+    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+</body>
+</html>
